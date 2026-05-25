@@ -30,8 +30,3 @@ print(x[2][2][1])
 #mutable
 a[0] = 999
 print(a)
-#loop
-counter = 0
-while counter < len(a):
-    print(a[counter])
-    counter += 1
