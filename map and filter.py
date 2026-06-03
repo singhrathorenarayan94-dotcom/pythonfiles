@@ -1,0 +1,5 @@
+s = list(map(lambda x : x*x,range(1,50)))
+print(s)
+print("after filter")
+o = list(filter(lambda x:x%2==0,s))
+print(o)
